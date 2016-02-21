@@ -17,6 +17,10 @@
 # Helpful for updating master and catching any divergence 
 > git config [--global] alias.update "! git fetch && git merge --ff-only"
 
+# View - opens gitk with all local branches visible
+# Useful when trying to understand the relative state of several different local branches
+> git config [--global] alias.view !gitk --branches=* &
+
 ------------------------------
 
 # Core
