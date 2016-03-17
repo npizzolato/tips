@@ -11,7 +11,7 @@ Alias for a relatively-nice looking command line log format. Prints out the comm
 ```
 
 ## Pocket-Merge 
-Performs what I'm affectionately calling a "pocket-merge" -- a merge which will contain a pocket of related commits while maintaining a linear history. More technically, this performs a non-fastforward merge, but only if a fast-forward merge is possible. 
+Performs what I'm affectionately calling a "pocket-merge" -- a merge which will contain a pocket of related commits while maintaining a linear history. More technically, this performs a non-fastforward merge, but only if a fast-forward merge is possible. You should run this in the branch you're merging _to_ (i.e. if you're merging a feature branch into master, run this in master). 
 
 This will cause history to look like the below. History is still linear because commits only occur on one side of the merge. 
 
