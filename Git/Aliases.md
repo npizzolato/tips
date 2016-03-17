@@ -36,7 +36,7 @@ This updates a branch from changes from its upstream branch, but only if the loc
 > git config [--global] alias.update "! git fetch && git merge --ff-only"
 ```
 
-# View all local branches in gitk
+## View all local branches in gitk
 This opens gitk with all local branches visible. This is useful when trying to understand the relative state of several different local branches (without having to mess with the gitk menus).
 
 ```
