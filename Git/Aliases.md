@@ -1,6 +1,6 @@
 # Git Aliases
 
-This section defines some helpful aliases I've found while working with Git. The commands in this section are meant for execution on Windows machines (specifically powershell, although I expect batch to work similarly). Using bash natively will probably require slightly different escaping. 
+This section defines some helpful aliases I've found while working with Git. The commands in this section are meant for execution on Windows machines in Powershell. Batch and native bash will probably require slightly different escaping. 
 
 ## Pretty log print
 Alias for a relatively-nice looking command line log format. Prints out the commit graph next to the main line for each commit, and prints out branches next to the commit. 
