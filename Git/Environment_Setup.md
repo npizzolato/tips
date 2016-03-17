@@ -28,3 +28,11 @@ I don't know about Linux, but there's no good diff tool built into Windows. In f
 [difftool "kdiff3"]
 	path = c:/Program Files/KDiff3/kdiff3.exe
 ```
+
+## Configure pull behavior
+
+I highly recommend keeping a linear git history. It makes it much easier to understand a chunk of history and be able to quickly understand what commits are included in a branch. This means you will be rebasing heavily and merging rarely. To make this easier, configure 'git pull' to rebase rather than merge.
+
+```
+> git config pull.rebase true
+```
