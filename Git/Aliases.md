@@ -6,7 +6,7 @@ This section defines some helpful aliases I've found while working with Git. The
 Alias for a relatively-nice looking command line log format. Prints out the commit graph next to the main line for each commit, and prints out branches next to the commit. 
 
 ```
-> git config [--global] alias.lol log --oneline --graph --decorate
+> git config [--global] alias.lol "log --oneline --graph --decorate"
 
 ```
 
@@ -40,5 +40,5 @@ This updates a branch from changes from its upstream branch, but only if the loc
 This opens gitk with all local branches visible. This is useful when trying to understand the relative state of several different local branches (without having to mess with the gitk menus).
 
 ```
-> git config [--global] alias.view !gitk --branches=* &
+> git config [--global] alias.view "!gitk --branches=* &"
 ```
